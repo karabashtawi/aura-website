@@ -9,8 +9,8 @@ import { Bottle } from './Bottle';
 import { supabase } from '../lib/supabase';
 
 const MAX_STOCK = 25;
-const UNIT = 15;
-const DELIVERY = 1;
+const UNIT = 20;
+const DELIVERY = 0;
 const SHEETDB_URL = 'https://sheetdb.io/api/v1/0w62f5fizw9co';
 
 type Status = 'idle' | 'loading' | 'success' | 'error';
@@ -217,7 +217,7 @@ export function Checkout({
                 </div>
                 <div className={`flex items-center justify-between text-sm ${fontClass}`}>
                   <span className="text-silver-300">{copy.priceDelivery}</span>
-                  <span className="font-semibold text-silver-50">{DELIVERY} {copy.priceCurrency}</span>
+<span className="font-semibold text-silver-50">{DELIVERY === 0 ? (lang === 'ar' ? 'مجاني' : 'Free') : `${DELIVERY} ${copy.priceCurrency}`}</span>
                 </div>
                 <div className="border-t border-white/10 pt-2.5 mt-2.5">
                   <div className={`flex items-center justify-between ${fontClass}`}>
