@@ -130,8 +130,8 @@ export const COPY: Record<Lang, Copy> = {
     specsSubtitle: 'Every spec, obsessed over.',
     specs: [
       { label: 'Material', value: '304 Stainless Steel · BPA-free · Rust-resistant · Anti-slip coating' },
-      { label: 'Insulation — Hot', value: '70°C at 6h · 50°C at 12h' },
-      { label: 'Insulation — Cold', value: '5°C at 6h · 9°C at 12h' },
+      { label: 'Heat Retention — Hot', value: '85–95°C at 1–4h · 55–60°C at 6h · above 45°C up to 12h' },
+          { label: 'Cooling — Cold', value: '4–7°C at 1–6h · 8–10°C at 12h · below 15°C up to 24h' },
       { label: 'Capacity & Lid', value: '≈1.2L · Dual-function leak-proof lid for ice & cleaning' },
       { label: 'Hero Feature', value: 'Premium Magnetic Ring (MagSafe)' },
     ],
@@ -204,8 +204,8 @@ export const COPY: Record<Lang, Copy> = {
     specsSubtitle: 'كل مواصفة، مدروسة بعناية.',
     specs: [
       { label: 'الخامة', value: 'ستانلس ستيل 304 · خالٍ من BPA · مقاوم للصدأ · طبقة مانعة للانزلاق' },
-      { label: 'العزل — ساخن', value: '70°م عند 6 ساعات · 50°م عند 12 ساعة' },
-      { label: 'العزل — بارد', value: '5°م عند 6 ساعات · 9°م عند 12 ساعة' },
+          { label: 'العزل — ساخن', value: '85-95°م خلال 1-4 ساعات · 55-60°م عند 6 ساعات · أعلى من 45°م حتى 12 ساعة' },
+           { label: 'العزل — بارد', value: '4-7°م خلال 1-6 ساعات · 8-10°م عند 12 ساعة · أقل من 15°م حتى 24 ساعة' },
       { label: 'السعة والغطاء', value: '≈1.2 لتر · غطاء مزدوج الوظيفة مانع للتسرب للثلج والتنظيف' },
       { label: 'الميزة الرئيسية', value: 'حلقة مغناطيسية فاخرة (ماغ سيف)' },
     ],
