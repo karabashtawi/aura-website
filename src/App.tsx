@@ -107,10 +107,6 @@ function App() {
     return <div className="min-h-screen bg-ink-950" />;
   }
 
-  if (!unlocked) {
-    return <ComingSoon onUnlock={unlock} />;
-  }
-
   if (!lang) {
     return <LanguageGate onChoose={choose} />;
   }
