@@ -8,6 +8,7 @@ import { COLORS, CITIES } from '../i18n';
 import { Bottle } from './Bottle';
 import { supabase } from '../lib/supabase';
 
+const MAX_STOCK = 25;
 const UNIT = 15;
 const DELIVERY = 2;
 const SHEETDB_URL = 'https://sheetdb.io/api/v1/0w62f5fizw9co';
